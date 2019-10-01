@@ -1,0 +1,876 @@
+Uri: http://gull-html-laravel.ui-lib.com/
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\index.htm
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/css/themes/lite-purple.min.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\css\themes\lite-purple.min.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/perfect-scrollbar.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\perfect-scrollbar.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/sessions/signIn
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\sessions\signIn.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/datatables/basic-tables
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\datatables\basic-tables.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/dashboard/dashboard1
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\dashboard\dashboard1.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/dashboard/dashboard2
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\dashboard\dashboard2.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/dashboard/dashboard3
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\dashboard\dashboard3.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/dashboard/dashboard4
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\dashboard\dashboard4.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/forms/forms-basic
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\forms\forms-basic.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/forms/basic-action-bar
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\forms\basic-action-bar.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/forms/form-layouts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\forms\form-layouts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/forms/multi-column-forms
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\forms\multi-column-forms.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/forms/form-input-group
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\forms\form-input-group.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/forms/form-validation
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\forms\form-validation.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/forms/smartWizard
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\forms\smartWizard.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/forms/tagInput
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\forms\tagInput.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/forms/form-editor
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\forms\form-editor.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/widgets/card
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\widgets\card.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/widgets/statistics
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\widgets\statistics.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/widgets/list
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\widgets\list.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/widgets/app
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\widgets\app.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/widgets/weather-app
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\widgets\weather-app.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/charts/echarts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\charts\echarts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/charts/chartjs
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\charts\chartjs.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/charts/apexAreaCharts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\charts\apexAreaCharts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/charts/apexBarCharts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\charts\apexBarCharts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/charts/apexBubbleCharts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\charts\apexBubbleCharts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/charts/apexColumnCharts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\charts\apexColumnCharts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/charts/apexCandleStickCharts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\charts\apexCandleStickCharts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/charts/apexLineCharts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\charts\apexLineCharts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/charts/apexMixCharts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\charts\apexMixCharts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/charts/apexPieDonutCharts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\charts\apexPieDonutCharts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/charts/apexRadarCharts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\charts\apexRadarCharts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/charts/apexRadialBarCharts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\charts\apexRadialBarCharts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/charts/apexScatterCharts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\charts\apexScatterCharts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/charts/apexSparklineCharts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\charts\apexSparklineCharts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/apps/invoice
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\apps\invoice.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/apps/inbox
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\apps\inbox.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/apps/chat
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\apps\chat.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/apps/calendar
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\apps\calendar.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/apps/task-manager
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\apps\task-manager.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/apps/task-manager-list
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\apps\task-manager-list.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/apps/toDo
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\apps\toDo.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/apps/ecommerce/products
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\apps\ecommerce\products.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/apps/ecommerce/product-details
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\apps\ecommerce\product-details.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/apps/ecommerce/cart
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\apps\ecommerce\cart.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/apps/ecommerce/checkout
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\apps\ecommerce\checkout.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/apps/contacts/lists
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\apps\contacts\lists.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/apps/contacts/grid
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\apps\contacts\grid.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/extrakits/dropDown
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\extrakits\dropDown.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/extrakits/imageCroper
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\extrakits\imageCroper.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/extrakits/loader
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\extrakits\loader.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/extrakits/laddaButton
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\extrakits\laddaButton.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/extrakits/toastr
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\extrakits\toastr.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/extrakits/sweetAlert
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\extrakits\sweetAlert.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/extrakits/tour
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\extrakits\tour.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/extrakits/upload
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\extrakits\upload.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/alerts
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\alerts.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/accordion
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\accordion.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/badges
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\badges.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/buttons
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\buttons.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/bootstrap-tab
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\bootstrap-tab.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/cards
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\cards.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/cards-metrics
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\cards-metrics.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/carousel
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\carousel.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/collapsible
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\collapsible.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/lists
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\lists.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/pagination
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\pagination.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/popover
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\popover.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/progressbar
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\progressbar.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/tables
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\tables.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/tabs
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\tabs.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/tooltip
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\tooltip.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/typography
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\typography.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/modals
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\modals.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/uikits/NoUislider
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\uikits\NoUislider.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/sessions/signUp
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\sessions\signUp.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/sessions/forgot
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\sessions\forgot.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/others/notFound
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\others\notFound.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/others/pricing-table
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\others\pricing-table.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/others/search-result
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\others\search-result.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/others/user-profile
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\others\user-profile.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/others/faq
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\others\faq.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/others/starter
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\others\starter.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/large-compact-sidebar/dashboard/dashboard1
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\large-compact-sidebar\dashboard\dashboard1.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/horizontal-bar/dashboard/dashboard1
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\horizontal-bar\dashboard\dashboard1.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/logo.png
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\logo.png
+Content Type: image/png
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/faces/1.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\faces\1.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/products/headphone-4.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\products\headphone-4.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/products/headphone-2.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\products\headphone-2.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/products/headphone-3.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\products\headphone-3.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/products/headphone-1.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\products\headphone-1.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/common-bundle-script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\common-bundle-script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/echarts.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\echarts.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/echart.options.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\echart.options.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/dashboard.v1.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\dashboard.v1.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/sidebar.large.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\sidebar.large.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/customizer.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\customizer.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/fonts/iconsmind.eot?1cd6a624d6a7569e37128c287a443e7e
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\fonts\iconsmind.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://gull-html-laravel.ui-lib.com/fonts/iconsmind.ttf?a925856d85799acc394635553311887a
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\fonts\iconsmind.ttf
+Content Type: application/vnd.ms-opentype
+
+Uri: http://gull-html-laravel.ui-lib.com/fonts/iconsmind.woff?5e5b709879b64c720a2c768a516ff0d3
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\fonts\iconsmind.woff
+Content Type: application/font-woff
+
+Uri: http://gull-html-laravel.ui-lib.com/fonts/iconsmind.svg?1f8fca36dc60dea28731a385dc3724ae
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\fonts\iconsmind.svg
+Content Type: image/svg+xml
+
+Uri: http://gull-html-laravel.ui-lib.com/images/page-bg-bottom.png?ec613ada298590517b55ec1e07aaa754
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\images\page-bg-bottom.png
+Content Type: image/png
+
+Uri: http://gull-html-laravel.ui-lib.com/images/watch-2.jpg?79b561e9b2902709b9d1244949e0b9b4
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\images\watch-2.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/products/weather-2.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\products\weather-2.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/photo-wide-4.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\photo-wide-4.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/datatables.min.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\datatables.min.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/datatables.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\datatables.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/datatables.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\datatables.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/faces/2.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\faces\2.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/faces/3.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\faces\3.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/faces/4.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\faces\4.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/dashboard.v2.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\dashboard.v2.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/faces/16.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\faces\16.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/photo-wide-1.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\photo-wide-1.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/photo-wide-2.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\photo-wide-2.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/photo-long-1.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\photo-long-1.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/photo-long-2.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\photo-long-2.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/dashboard.v3.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\dashboard.v3.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/dashboard.v4.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\dashboard.v4.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/pickadate/classic.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\pickadate\classic.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/pickadate/classic.date.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\pickadate\classic.date.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/pickadate/picker.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\pickadate\picker.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/pickadate/picker.date.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\pickadate\picker.date.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/form.basic.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\form.basic.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/form.validation.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\form.validation.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/smart.wizard/smart_wizard.min.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\smart.wizard\smart_wizard.min.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/smart.wizard/smart_wizard_theme_arrows.min.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\smart.wizard\smart_wizard_theme_arrows.min.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/smart.wizard/smart_wizard_theme_circles.min.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\smart.wizard\smart_wizard_theme_circles.min.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/smart.wizard/smart_wizard_theme_dots.min.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\smart.wizard\smart_wizard_theme_dots.min.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/jquery.smartWizard.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\jquery.smartWizard.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/smart.wizard.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\smart.wizard.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/tagging.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\tagging.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/tagging.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\tagging.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/quill.bubble.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\quill.bubble.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/quill.snow.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\quill.snow.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/quill.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\quill.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/quill.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\quill.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/products/iphone-1.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\products\iphone-1.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/faces/5.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\faces\5.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/apexcharts.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\apexcharts.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/card.metrics.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\card.metrics.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/widgets-statistics.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\widgets-statistics.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/products/speaker-1.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\products\speaker-1.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/products/watch-1.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\products\watch-1.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/faces/10.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\faces\10.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/faces/12.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\faces\12.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/faces/13.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\faces\13.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/faces/15.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\faces\15.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/faces/17.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\faces\17.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/faces/9.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\faces\9.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/master-card.png
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\master-card.png
+Content Type: image/png
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/widget-list.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\widget-list.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/tooltip.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\tooltip.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/products/weather.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\products\weather.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/echarts.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\echarts.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/chartjs.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\chartjs.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/apexcharts.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\apexcharts.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/apexcharts.dataseries.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\apexcharts.dataseries.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/apexAreaChart.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\apexAreaChart.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/apexBarChart.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\apexBarChart.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/apexBubbleChart.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\apexBubbleChart.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/apexColumnChart.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\apexColumnChart.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/apexCandleStickChart.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\apexCandleStickChart.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/apexChart.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\apexChart.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/apexMixChart.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\apexMixChart.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/apexPieDonutChart.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\apexPieDonutChart.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/apexRadarChart.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\apexRadarChart.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/apexRadialBarChart.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\apexRadialBarChart.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/apexScatterChart.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\apexScatterChart.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/apexSparklineChart.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\apexSparklineChart.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/invoice.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\invoice.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/sidebar.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\sidebar.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/calendar/fullcalendar.min.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\calendar\fullcalendar.min.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/calendar/jquery-ui.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\calendar\jquery-ui.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/calendar/moment.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\calendar\moment.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/calendar/fullcalendar.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\calendar\fullcalendar.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/calendar.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\calendar.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/task-manager.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\task-manager.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/task-manager-list.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\task-manager-list.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/animate.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\animate.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/todo.script.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\todo.script.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/products/speaker-2.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\products\speaker-2.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/products/watch-2.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\products\watch-2.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/products/iphone-2.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\products\iphone-2.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/mac_book.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\mac_book.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/cropper.min.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\cropper.min.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/cropper.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\cropper.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/cropper.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\cropper.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/ladda-themeless.min.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\ladda-themeless.min.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/spin.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\spin.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/ladda.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\ladda.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/ladda.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\ladda.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/toastr.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\toastr.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/toastr.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\toastr.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/toastr.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\toastr.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/sweetalert2.min.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\sweetalert2.min.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/sweetalert2.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\sweetalert2.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/sweetalert.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\sweetalert.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/hopscotch.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\hopscotch.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/hopscotch.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\hopscotch.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/hopscotch.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\hopscotch.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/dropzone.min.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\dropzone.min.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/dropzone.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\dropzone.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/dropzone.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\dropzone.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/photo-wide-3.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\photo-wide-3.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/es5/card.metrics.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\es5\card.metrics.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/carousel.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\carousel.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/modal.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\modal.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/styles/vendor/nuslider.min.css
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\styles\vendor\nuslider.min.css
+Content Type: text/css
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/vendor/nuslider.min.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\vendor\nuslider.min.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/nuslider.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\nuslider.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/photo-long-3.jpg
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\photo-long-3.jpg
+Content Type: image/jpeg
+
+Uri: http://gull-html-laravel.ui-lib.com/large-sidebar/dashboard/dashboard1
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\large-sidebar\dashboard\dashboard1.html
+Content Type: text/html
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/images/logo-text.png
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\images\logo-text.png
+Content Type: image/png
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/sidebar.compact.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\sidebar.compact.script.js
+Content Type: application/x-javascript
+
+Uri: http://gull-html-laravel.ui-lib.com/assets/js/sidebar-horizontal.script.js
+File Name: c:\Downloaded Web Sites\gull-html-laravel.ui-lib.com\assets\js\sidebar-horizontal.script.js
+Content Type: application/x-javascript
+
