@@ -18,3 +18,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+//admin Routes
+Route::get('/staff/create','AdminController@createstaff')->name('createstaff');
+Route::post('/staff/create', 'AdminController@storestaff')->name('storestaff');
+Route::get('/staff', 'AdminController@viewstaff')->name('viewstaff');
+Route::get('/admin/staff', 'AdminController@fetchAllStaff')->name('viewstaff');

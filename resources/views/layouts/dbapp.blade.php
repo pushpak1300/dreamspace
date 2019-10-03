@@ -19,8 +19,12 @@
 
     <!-- Styles -->
     <link id="gull-theme" rel="stylesheet" href="{{asset('assets\styles\css\themes\lite-purple.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets\styles\vendor\perfect-scrollbar.css')}}">
-        
+    <link rel="stylesheet" href="{{asset('assets\styles\vendor\sweetalert2.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets\styles\vendor\datatables.min.css')}}">
+
+    {{-- <link rel="stylesheet" href="..\assets\styles\vendor\datatables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/af-2.3.4/b-1.6.0/b-colvis-1.6.0/b-flash-1.6.0/b-html5-1.6.0/b-print-1.6.0/cr-1.5.2/fc-3.3.0/fh-3.1.6/datatables.min.css"/> --}}
+    
 </head>
  <body class="text-left">
         <!-- Pre Loader Strat  -->
@@ -102,9 +106,16 @@
   
 <script src="{{asset('assets\js\common-bundle-script.js')}}"></script>
 <script src="{{asset('assets\js\vendor\echarts.min.js')}}"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 <script src="{{asset('assets\js\es5\echart.options.min.js')}}"></script>
 <script src="{{asset('assets\js\es5\dashboard.v1.script.js')}}"></script>
 <script src="{{asset('assets\js\script.js')}}"></script>  
 <script src="{{asset('assets\js\sidebar.large.script.js')}}"></script>
+<script src="{{asset('assets/js/vendor/datatables.min.js')}}"></script>
+
+
+
+@stack('script')
+
 </body>
 </html>

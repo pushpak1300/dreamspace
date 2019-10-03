@@ -19,7 +19,8 @@ class CreateUsersTable extends Migration
             $table->smallInteger('roll_no')->nullable();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
-            $table->string('avtar')->nullable()->default('https://img.icons8.com/ios-glyphs/240/000000/user--v1.png');
+            $table->boolean('is_fully_registered')->nullable()->default(false);
+            $table->string('avtar')->default('https://img.icons8.com/ios-glyphs/240/000000/user--v1.png');
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
