@@ -37,7 +37,7 @@
                     <!-- CARD ICON -->
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="card card-icon mb-4">
+                            <div class="card bg-dark text-white card-icon mb-4">
                                 <div class="card-body text-center">
                                     <i class="i-Data-Upload"></i>
                                     <p class="text-muted mt-2 mb-2">Today's Upload</p>
