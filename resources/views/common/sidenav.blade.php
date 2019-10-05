@@ -5,7 +5,7 @@
     @role('staff')
     @include('sidenav.staff')
     @endrole
-    @role('atudent')
+    @role('student')
     @include('sidenav.staff')
     @endrole
 </div>

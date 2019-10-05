@@ -11,6 +11,8 @@
 |
 */
 
+use App\Http\Controllers\AdminController;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -24,4 +26,12 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/staff/create','AdminController@createstaff')->name('createstaff');
 Route::post('/staff/create', 'AdminController@storestaff')->name('storestaff');
 Route::get('/staff', 'AdminController@viewstaff')->name('viewstaff');
-Route::get('/admin/staff', 'AdminController@fetchAllStaff')->name('viewstaff');
+Route::get('/admin/staff', 'AdminController@fetchAllStaff')->name('viewstaffdatatable');
+
+Route::get('/student/create', 'AdminController@createstudent')->name('createstudent');
+Route::post('/student/create', 'AdminController@storestudent')->name('storestudent');
+Route::get('/student', 'AdminController@viewstudents')->name('viewstudents');
+Route::get('/admin/student', 'AdminController@fetchAllstudent')->name('viewstudentdatatable');
+
+Route::delete('/student/{id}','AdminController@deletestudent')->name('deletestudent');
+Route::delete('/admin/student/{id}', 'AdminController@viewstudent')->name('viewstudent');

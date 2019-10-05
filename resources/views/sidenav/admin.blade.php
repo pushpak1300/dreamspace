@@ -61,13 +61,13 @@
 
      <ul class="childNav" data-parent="students">
          <li class="nav-item">
-             <a class="" href="charts\echarts.html">
+             <a class="" href="/student">
                  <i class="nav-icon i-File-Clipboard-Text--Image"></i>
                  <span class="item-name">Manage Student</span>
              </a>
          </li>
          <li class="nav-item">
-             <a class="" href="charts\chartjs.html">
+             <a class="" href="/student/create">
                  <i class="nav-icon i-File-Clipboard-Text--Image"></i>
                  <span class="item-name">Add Student</span>
              </a>

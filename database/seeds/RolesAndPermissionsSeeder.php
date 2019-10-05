@@ -26,11 +26,17 @@ class RolesAndPermissionsSeeder extends Seeder
         Permission::create(['name' => 'edit staff']);
         Permission::create(['name' => 'delete staff']);
         Permission::create(['name' => 'view staff']);
+        Permission::create(['name' => 'add student']);
+        Permission::create(['name' => 'edit student']);
+        Permission::create(['name' => 'delete student']);
+        Permission::create(['name' => 'view student']);
 
         //assigned permissions to created roles     
         $admin->givePermissionTo(Permission::all());
         
-        $staff->givePermissionTo(['edit staff','delete staff','view staff']);
+        $staff->givePermissionTo(['edit staff','view staff','add student','edit student','delete student','view student']);
+
+        $student->givePermissionTo(['view student','edit student']);
         
     }
 }
