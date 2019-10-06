@@ -9,5 +9,3 @@ php:
     not-name:
       - index.php
       - server.php
-
-css: true
