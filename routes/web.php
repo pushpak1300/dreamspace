@@ -25,7 +25,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 //admin Routes
 Route::get('/staff/create','AdminController@createstaff')->name('createstaff');
 Route::post('/staff/create', 'AdminController@storestaff')->name('storestaff');
-Route::get('/staff', 'AdminController@viewstaff')->name('viewstaff');
+Route::get('/staff', 'AdminController@viewstaffs')->name('viewstaffs');
 Route::get('/admin/staff', 'AdminController@fetchAllStaff')->name('viewstaffdatatable');
 
 Route::get('/student/create', 'AdminController@createstudent')->name('createstudent');
@@ -35,3 +35,6 @@ Route::get('/admin/student', 'AdminController@fetchAllstudent')->name('viewstude
 
 Route::delete('/student/{id}','AdminController@deletestudent')->name('deletestudent');
 Route::delete('/admin/student/{id}', 'AdminController@viewstudent')->name('viewstudent');
+
+
+//staff Routes

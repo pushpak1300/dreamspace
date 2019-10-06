@@ -1,4 +1,4 @@
- <div class="sidebar-left open rtl-ps-none" data-perfect-scrollbar="" data-suppress-scroll-x="true">
+<div class="sidebar-left open rtl-ps-none" data-perfect-scrollbar="" data-suppress-scroll-x="true">
      <ul class="navigation-left">
          <li class="nav-item ">
              <a class="nav-item-hold" href="/home">
@@ -7,13 +7,7 @@
              </a>
              <div class="triangle"></div>
          </li>
-         <li class="nav-item " data-item="staff">
-             <a class="nav-item-hold" href="#">
-                 <i class="nav-icon i-Professor"></i>
-                 <span class="nav-text">Staff</span>
-             </a>
-             <div class="triangle"></div>
-         </li>
+      
          <li class="nav-item " data-item="students">
              <a class="nav-item-hold" href="#">
                  <i class="nav-icon i-Student-Male"></i>
@@ -44,21 +38,7 @@
 
 
 
-     <ul class="childNav" data-parent="staff">
-         <li class="nav-item">
-             <a class="" href="/staff">
-                 <i class="nav-icon i-File-Clipboard-Text--Image"></i>
-                 <span class="item-name">Manage Staff</span>
-             </a>
-         </li>
-         <li class="nav-item">
-             <a class="" href="/staff/create">
-                 <i class="nav-icon i-File-Clipboard-Text--Image"></i>
-                 <span class="item-name">Add Staff</span>
-             </a>
-         </li>
-     </ul>
-
+     
      <ul class="childNav" data-parent="students">
          <li class="nav-item">
              <a class="" href="/student">

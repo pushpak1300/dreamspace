@@ -23,6 +23,7 @@ class CreateUsersTable extends Migration
             $table->string('avtar')->default('https://img.icons8.com/ios-glyphs/240/000000/user--v1.png');
             $table->string('password');
             $table->rememberToken();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

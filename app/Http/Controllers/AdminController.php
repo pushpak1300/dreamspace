@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use App\User;
 use Yajra\DataTables\Facades\DataTables;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Auth\Access\Gate;
 
 class AdminController extends Controller
 {
@@ -18,7 +19,9 @@ class AdminController extends Controller
      */
     public function viewstaffs()
     {
-        Auth::user()->can('view staff');
+        if(!Auth::user()->can('view-staffs')){
+            abort(403, 'Unauthorized action.');
+        }
         return view('admin.managestaff');
     }
     /**
@@ -28,6 +31,9 @@ class AdminController extends Controller
      */
     public function createstaff()
     {
+        if (!Auth::user()->can('add-staff')) {
+            abort(403, 'Unauthorized action.');
+        }
         return view('admin.createstaff');
     }
     /**
@@ -37,8 +43,10 @@ class AdminController extends Controller
      * @return Response
      */
     public function storestaff(Request $request)
-    {   
-        Auth::user()->can('add staff');
+    {
+        if (!Auth::user()->can('add-staff')) {
+            abort(403, 'Unauthorized action.');
+        }
         
         //validating data
         $validatedData = $request->validate([
@@ -63,19 +71,18 @@ class AdminController extends Controller
         $staff=User::role('staff')->get();
         return DataTables::of($staff)
             ->addColumn('status', function (User $staff) {
-                if($staff->is_fully_registred == false){
-                return 'Incomplete';
-                }
-                else {
-                return 'Complete';
-                }
-            return 'Incomplete';
+                if($staff->is_fully_registered=== 0){
+                return '<span class="badge badge-pill badge-danger p-2 m-1">Incomplete</span>';
+            } else {
+                return '<span class="badge badge-pill badge-success p-2 m-1">Complete</span>';
+            }
+            return '<span class="badge badge-pill badge-danger p-2 m-1">Incomplete</span>';
             })
             ->addColumn('delete', function (User $staff) {
-                return '<button id="' . $staff->id . '" class="delete btn-sm" data-toggle="modal" data-target="#deleteModal"><img src="https://img.icons8.com/flat_round/24/000000/delete-sign.png"></button>';
+                return '<button id="' . $staff->id . '" class="delete text-white btn-sm btn-danger" data-toggle="modal" data-target="#deleteModal"><i class="nav-icon i-Close-Window font-weight-bold"></i></button>';
             })
             ->addColumn('view', function (User $staff) {
-                return '<a  class="view " href="/admin/staff/' . $staff->id . '"><img src="https://img.icons8.com/material-outlined/24/000000/view-file.png"></a>';            })
+                return '<a  class="view text-primary" href="/admin/staff/' . $staff->id . '"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a>';            })
             ->rawColumns(['status','delete',  'view'])
             ->make(true);
     }
@@ -131,18 +138,19 @@ class AdminController extends Controller
         $student = User::role('student')->get();
         return DataTables::of($student)
             ->addColumn('status', function (User $student) {
-                if ($student->is_fully_registred == false) {
-                    return 'Incomplete';
+                if ($student->is_fully_registered === 0) {
+                    return '<span class="badge badge-pill badge-danger p-2 m-1">Incomplete</span>';
                 } else {
-                    return 'Complete';
+                    return '<span class="badge badge-pill badge-success p-2 m-1">Complete</span>';
                 }
-                return 'Incomplete';
+                return '<span class="badge badge-pill badge-danger p-2 m-1">Incomplete</span>';
+                
             })
             ->addColumn('delete', function (User $student) {
-                return '<button id="'. $student->id .'" class="delete btn-sm" data-toggle="modal" data-target="#deleteModal"><img src="https://img.icons8.com/flat_round/24/000000/delete-sign.png"></button>';
+                return '<button id="'. $student->id . '" class="delete text-white btn-sm btn-danger" data-toggle="modal" data-target="#deleteModal"><i class="nav-icon i-Close-Window font-weight-bold"></i></button>';
             })
             ->addColumn('view', function (User $student) {
-                return '<a  class="view " href="/admin/student/'. $student->id .'"><img src="https://img.icons8.com/material-outlined/24/000000/view-file.png"></a>';
+                return '<a  class="view text-primary " href="/admin/student/'. $student->id . '"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a>';
             })
             ->rawColumns(['status', 'delete',  'view'])
             ->make(true);

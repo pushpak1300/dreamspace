@@ -6,6 +6,6 @@
     @include('sidenav.staff')
     @endrole
     @role('student')
-    @include('sidenav.staff')
+    @include('sidenav.student')
     @endrole
 </div>
