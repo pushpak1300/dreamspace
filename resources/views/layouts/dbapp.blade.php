@@ -110,8 +110,13 @@
 <script src="{{asset('assets\js\es5\echart.options.min.js')}}"></script>
 <script src="{{asset('assets\js\es5\dashboard.v1.script.js')}}"></script>
 <script src="{{asset('assets\js\script.js')}}"></script>  
+<script src="{{asset('assets\js\vendor\jquery.smartWizard.min.js')}}"></script>
 <script src="{{asset('assets\js\sidebar.large.script.js')}}"></script>
 <script src="{{asset('assets/js/vendor/datatables.min.js')}}"></script>
+ <script src="{{asset('assets\js\vendor\tagging.min.js')}}"></script>
+ <script src="{{asset('assets\js\tagging.script.js')}}"></script>
+ <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+
 
 
 

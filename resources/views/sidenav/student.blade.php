@@ -48,6 +48,12 @@
                  <span class="item-name">View Projects</span>
              </a>
          </li>
+         <li class="nav-item">
+             <a class="" href="/project/create">
+                 <i class="nav-icon i-File-Clipboard-Text--Image"></i>
+                 <span class="item-name">Add Project</span>
+             </a>
+         </li>
      </ul>
 
      

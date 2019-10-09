@@ -28,6 +28,8 @@ Route::post('/staff/create', 'AdminController@storestaff')->name('storestaff');
 Route::get('/staff', 'AdminController@viewstaffs')->name('viewstaffs');
 Route::get('/admin/staff', 'AdminController@fetchAllStaff')->name('viewstaffdatatable');
 
+
+//admin&staff routes
 Route::get('/student/create', 'AdminController@createstudent')->name('createstudent');
 Route::post('/student/create', 'AdminController@storestudent')->name('storestudent');
 Route::get('/student', 'AdminController@viewstudents')->name('viewstudents');
@@ -38,3 +40,7 @@ Route::delete('/admin/student/{id}', 'AdminController@viewstudent')->name('views
 
 
 //staff Routes
+
+
+//student Routes
+Route::resource('project', 'ProjectController');
