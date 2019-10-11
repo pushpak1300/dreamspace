@@ -18,14 +18,14 @@ class CreateProjectsTable extends Migration
             $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('staff_id');
             $table->string('topic')->nullable();
-            $table->string('prsentation')->nullable();
+            $table->string('domain')->nullable()->default(0);
+            $table->string('presentation')->nullable();
             $table->string('report')->nullable();
             $table->string('video')->nullable();
             $table->string('github_link')->nullable();
             $table->boolean('is_research_published')->nullable()->default(false);
             $table->string('research_paper')->nullable();
             $table->integer('score')->unsigned()->nullable()->default(0);
-            $table->integer('domain')->unsigned()->nullable()->default(0);
             $table->softDeletes();
             $table->timestamps();
 

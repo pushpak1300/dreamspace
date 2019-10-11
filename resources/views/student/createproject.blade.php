@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <!-- SmartWizard html -->
-                     <form action="/project" method="post" id='myform'>
+                     <form action="/project" method="post" id='myform' enctype="multipart/form-data">
                         @csrf
                         @method('POST')
                     <div id="smartwizard">
@@ -115,13 +115,12 @@
                                                         <label for="report" class="ul-form__label">Project Report</label>
                                                         <div class="input-group mb-3">
                                                             <div class="custom-file">
-                                                                <input type="file" class="report" id="report" name="report">
-                                                                <label class="custom-file-label" for="report" aria-describedby="report">Choose
-                                                                        file</label>
+                                                                <input type="file" class="form-control-file" id="report" name="report">
+                                                                <label class="custom-file-label" for="report" aria-describedby="report">Upload Project REPORT</label>
                                                             </div>
-                                                            <div class="input-group-append">
+                                                            {{-- <div class="input-group-append">
                                                                 <span class="input-group-text" id="report-label">Upload</span>
-                                                            </div>
+                                                            </div> --}}
                                                         </div>
 
                                                         <small  class="ul-form__text form-text ">
@@ -132,13 +131,11 @@
                                                         <label for="presentation" class="ul-form__label">Project Presentation</label>
                                                         <div class="input-group mb-3">
                                                             <div class="custom-file">
-                                                                <input type="file" class="presentation" id="presentation" name='presentation'>
+                                                                <input type="file" class="form-control-file" id="presentation" name='presentation'>
                                                                 <label class="custom-file-label" for="presentation" aria-describedby="presentation">Choose
                                                                         file</label>
                                                             </div>
-                                                            <div class="input-group-append">
-                                                                <span class="input-group-text" id="presentation-label">Upload</span>
-                                                            </div>
+                                                           
                                                         </div>
 
                                                         <small  class="ul-form__text form-text ">
@@ -288,5 +285,23 @@ $(document).ready(function () {
     title: '{{session()->get('success')}}'
     })
 </script>
+@endif
+@if ($errors->any())
+ @foreach ($errors->all() as $error)
+
+     <script>
+    const Toast = Swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 4000
+    })
+
+    Toast.fire({
+    type: 'warning',
+    title: '{{$error}}'
+    })
+</script>
+@endforeach
 @endif
 @endpush

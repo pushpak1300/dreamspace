@@ -65,7 +65,7 @@
                 style="background-size: cover;background-image: url(http://gull-html-laravel.ui-lib.com/assets/images/photo-long-3.jpg">
                 <div class="pr-3 auth-right">
                     <a class="btn btn-rounded btn-outline-primary btn-outline-email btn-block btn-icon-text"
-                        href="signup.html">
+                        href="/register">
                         <i class="i-Mail-with-At-Sign"></i> Sign up with Email
                     </a>
                     <a class="btn btn-rounded btn-outline-primary btn-outline-google btn-block btn-icon-text">
