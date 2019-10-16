@@ -8,6 +8,7 @@ use App\project;
 use Auth;
 use Illuminate\Support\Facades\Storage;
 use App\tag;
+use Yajra\DataTables\Facades\DataTables;
 
 class ProjectController extends Controller
 {
@@ -18,7 +19,7 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        //
+        return view('student.viewproject');
     }
 
     /**
@@ -87,7 +88,7 @@ class ProjectController extends Controller
     public function show($id)
     {
     $project=Project::find($id);
-    echo $project;    
+    return view('project.project',['project'=>$project]);
     }
 
     /**
@@ -121,6 +122,32 @@ class ProjectController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Project::destroy($id);
+        return redirect()->back();
+    }
+    /**
+     * Return Datatable of Projects
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function viewselfproject()
+    {
+        $id=Auth::id();
+        $project=Project::where('user_id',$id)->get();
+        // dd($project);
+        return DataTables::of($project)
+            ->addColumn('mentor',function ( Project $project){
+                $staff=User::find($project->staff_id);
+                return ''.$staff->name.'';
+            })
+            ->addColumn('delete', function (Project $project) {
+                return '<button id="' . $project->id . '" class="delete text-white btn-sm btn-danger" data-toggle="modal" data-target="#deleteModal"><i class="nav-icon i-Close-Window font-weight-bold"></i></button>';
+            })
+            ->addColumn('view', function (Project $project) {
+                return '<a  class="view text-primary " href="/project/' . $project->id . '"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a>';
+            })
+            ->rawColumns(['mentor','delete',  'view'])
+            ->make(true);
     }
 }

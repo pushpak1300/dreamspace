@@ -8,6 +8,7 @@ use App\User;
 use Yajra\DataTables\Facades\DataTables;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Auth\Access\Gate;
+use App\project;
 
 class AdminController extends Controller
 {
@@ -161,5 +162,30 @@ class AdminController extends Controller
         $user=User::findorfail($id);//taking user id
         $user->delete();//delete user instance
         return redirect()->back()->with('warning', 'Student Deleted Sucessfully!');//redirect back
+    }
+    public function fetchallproject()
+    {
+        $project = Project::all();
+        return DataTables::of($project)
+            ->addColumn('mentor', function (Project $project) {
+                $staff = User::find($project->staff_id);
+                return '' . $staff->name . '';
+            })
+            ->addColumn('owner', function (Project $project) {
+                $user = User::find($project->user_id);
+                return '' . $user->roll_no. '';
+            })
+            ->addColumn('delete', function (Project $project) {
+                return '<button id="' . $project->id . '" class="delete text-white btn-sm btn-danger" data-toggle="modal" data-target="#deleteModal"><i class="nav-icon i-Close-Window font-weight-bold"></i></button>';
+            })
+            ->addColumn('view', function (Project $project) {
+                return '<a  class="view text-primary " href="/project/' . $project->id . '"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a>';
+            })
+            ->rawColumns(['mentor','owner','delete','view'])
+            ->make(true);
+    }
+    public function viewproject()
+    {
+        return view('admin.project');
     }
 }

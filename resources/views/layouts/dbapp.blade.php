@@ -21,6 +21,13 @@
     <link id="gull-theme" rel="stylesheet" href="{{asset('assets\styles\css\themes\lite-purple.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets\styles\vendor\sweetalert2.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets\styles\vendor\datatables.min.css')}}">
+    <style>
+.pdfobject-container { 
+    height: 100%;
+    width: 100%;
+     border: 1rem solid rgba(0,0,0,.1); }
+</style>
+
 
     {{-- <link rel="stylesheet" href="..\assets\styles\vendor\datatables.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/af-2.3.4/b-1.6.0/b-colvis-1.6.0/b-flash-1.6.0/b-html5-1.6.0/b-print-1.6.0/cr-1.5.2/fc-3.3.0/fh-3.1.6/datatables.min.css"/> --}}

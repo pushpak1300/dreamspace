@@ -36,14 +36,9 @@
      
 
      <ul class="childNav" data-parent="project">
+        
          <li class="nav-item">
-             <a class="" href="charts\echarts.html">
-                 <i class="nav-icon i-File-Clipboard-Text--Image"></i>
-                 <span class="item-name">Manage projects</span>
-             </a>
-         </li>
-         <li class="nav-item">
-             <a class="" href="charts\chartjs.html">
+             <a class="" href="/project">
                  <i class="nav-icon i-File-Clipboard-Text--Image"></i>
                  <span class="item-name">View Projects</span>
              </a>

@@ -39,4 +39,18 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+    /**
+     * Get the project for the current user.
+     */
+    public function projects()
+    {
+        return $this->hasMany('App\project','user_id');
+    }
+    /**
+     * Get the project record associated with the staff.
+     */
+    public function projectaasigned()
+    {
+        return $this->hasOne('App\Phone', 'staff_id');
+    }
 }

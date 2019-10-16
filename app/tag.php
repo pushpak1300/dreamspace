@@ -12,4 +12,11 @@ class tag extends Model
      * @var array
      */
     protected $fillable = ['tag_name','project_id'];
+    /**
+     * Get the project that owns the tag.
+     */
+    public function project()
+    {
+        return $this->belongsTo('App\project', 'project_id');
+    }
 }

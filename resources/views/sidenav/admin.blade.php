@@ -21,8 +21,8 @@
              </a>
              <div class="triangle"></div>
          </li>
-         <li class="nav-item " data-item="project">
-             <a class="nav-item-hold" href="#">
+         <li class="nav-item ">
+             <a class="nav-item-hold" href="/admin/project">
                  <i class="nav-icon i-Notepad"></i>
                  <span class="nav-text">Projects</span>
              </a>

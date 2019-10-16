@@ -12,6 +12,7 @@
 */
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ProjectController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -38,9 +39,12 @@ Route::get('/admin/student', 'AdminController@fetchAllstudent')->name('viewstude
 Route::delete('/student/{id}','AdminController@deletestudent')->name('deletestudent');
 Route::delete('/admin/student/{id}', 'AdminController@viewstudent')->name('viewstudent');
 
+Route::get('/admin/all/project', 'AdminController@fetchallproject');
+Route::get('/admin/project', 'AdminController@viewproject');
 
 //staff Routes
 
 
 //student Routes
 Route::resource('project', 'ProjectController');
+Route::get('/user/project','ProjectController@viewselfproject')->name('viewselfproject');
