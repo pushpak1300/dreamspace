@@ -20,7 +20,11 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home')->middleware('fullyregistered');
+
+Route::get('/fill-details', 'HomeController@filldetails');
+Route::post('/student/fill-details', 'HomeController@storestudentdetails')->name('storestudentdetails');
+
 
 
 //admin Routes
@@ -48,3 +52,9 @@ Route::get('/admin/project', 'AdminController@viewproject');
 //student Routes
 Route::resource('project', 'ProjectController');
 Route::get('/user/project','ProjectController@viewselfproject')->name('viewselfproject');
+
+
+
+Route::get('/report', 'ReportController@report');
+
+

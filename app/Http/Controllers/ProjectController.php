@@ -41,7 +41,7 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        //dd($request->all());
+        // dd($request->all());
         $validatedData = $request->validate([
             'topic' => 'required|max:55|',
             'staff_id' => 'required|max:4',
@@ -65,7 +65,7 @@ class ProjectController extends Controller
             $path = Storage::putFileAs('public', $presentation, $presentationfilename);
             $project->presentation = $path;
         }
-        if($request->is_research_published==1){
+        if($request->is_paper_published=='1'){
             $project->is_research_published=1;            
             $project->research_paper=$request->research_paper; 
         }
