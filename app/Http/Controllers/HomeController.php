@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Auth;
 use App\student_detail;
+use App\User;
 
 class HomeController extends Controller
 {
@@ -25,7 +26,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $student = User::role('student')->get();
+        $staff = User::role('staff')->get();
+        return view('home',['student'=>$student,'staff'=>$staff]);
     }
     /**
      * Show Complete profile form to user

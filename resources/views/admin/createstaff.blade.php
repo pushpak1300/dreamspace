@@ -13,7 +13,7 @@
         <div class="separator-breadcrumb border-top"></div>
 
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <div class="card mb-4">
                     <div class="card-body">
                         <div class="card-title mb-3"> Add Staff</div>
@@ -21,7 +21,7 @@
                             @csrf
                             @method('POST')
                             <div class="row">
-                                <div class="col-md-12 form-group mb-3">
+                                <div class="col-md-6 form-group mb-3">
                                     <label for="name">Name</label>
                                     <input type="text" class="form-control @error('name') is-invalid @enderror" value="{{old('name')}}"  id="name" placeholder="Jhon Traversy"
                                         name='name' required>
@@ -32,7 +32,7 @@
                                     @enderror
                                 </div>
                                 
-                                <div class="col-md-12 form-group mb-3">
+                                <div class="col-md-6 form-group mb-3">
                                     <label for="email">Email</label>
                                     <input type="email" class="form-control @error('email') is-invalid @enderror" value="{{old('email')}}" id="email" placeholder="abc@gmail.com"
                                         name='email' required>
@@ -42,7 +42,7 @@
                                     </span>
                                     @enderror
                                 </div>
-                                <div class="col-md-12 form-group mb-3">
+                                <div class="col-md-6 form-group mb-3">
                                     <label for="password">Password</label>
                                     <input type="password" class="form-control @error('password') is-invalid @enderror" id="password" placeholder="*********"
                                         minlength="8" name='password' required>
@@ -52,7 +52,7 @@
                                     </span>
                                     @enderror
                                 </div>
-                                <div class="col-md-12 form-group mb-3">
+                                <div class="col-md-6 form-group mb-3">
                                     <label for="confirmpassword"> Confirm Password</label>
                                     <input type="password" class="form-control @error('password') is-invalid @enderror" id="confirmpassword"
                                         placeholder="*********" minlength="8" name='password_confirmation' required>
@@ -66,7 +66,7 @@
 
 
 
-                                <div class="col-md-12">
+                                <div class="col-md-6">
                                     <button class="btn btn-primary">Submit</button>
                                 </div>
                             </div>

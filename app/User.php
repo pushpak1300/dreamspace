@@ -37,6 +37,10 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    protected $fillable = [
+        'name', 'roll_no', 'email', 'password', 'is_fully_registered','avtar',
+    ];
     /**
      * Get the project for the current user.
      */

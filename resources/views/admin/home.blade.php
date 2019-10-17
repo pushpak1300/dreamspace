@@ -15,8 +15,8 @@
                             <div class="card card-icon mb-4">
                                 <div class="card-body text-center">
                                     <i class="i-Data-Upload"></i>
-                                    <p class="text-muted mt-2 mb-2">Today's Upload</p>
-                                    <p class="text-primary text-24 line-height-1 m-0">21</p>
+                                    <p class="text-muted mt-2 mb-2">Total Staff</p>
+                                <p class="text-primary text-24 line-height-1 m-0">{{$staff->count()}}</p>
                                 </div>
                             </div>
                         </div>
@@ -25,8 +25,8 @@
                             <div class="card card-icon mb-4">
                                 <div class="card-body text-center">
                                     <i class="i-Add-User"></i>
-                                    <p class="text-muted mt-2 mb-2">New Users</p>
-                                    <p class="text-primary text-24 line-height-1 m-0">21</p>
+                                    <p class="text-muted mt-2 mb-2">Total Student</p>
+                                    <p class="text-primary text-24 line-height-1 m-0">{{$student->count()}}</p>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
 
             </div>
             <!-- end of row-->
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-md-6">
                     <div class="card o-hidden mb-4">
                         <div class="card-header">
@@ -185,9 +185,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <!-- end of col-->
-
+{{-- 
                 <div class="col-md-6">
                     <div class="card o-hidden mb-4">
                         <div class="card-header">
@@ -289,7 +289,7 @@
                     </div>
                 </div>
                 <!-- end of col-->
-            </div>
+            </div> --}}
             <!-- end of row-->
                 </div>
 
