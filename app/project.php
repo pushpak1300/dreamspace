@@ -12,7 +12,7 @@ class project extends Model
      *
      * @var array
      */
-    protected $fillable = ['topic','domain','user_id','staff_id','presentation','report','video','github_link', 'is_research_published','research_paper'];
+    protected $fillable = ['topic', 'domain', 'user_id', 'staff_id', 'presentation', 'report', 'video', 'github_link', 'is_research_published', 'research_paper'];
     use SoftDeletes;
 
     /**
@@ -22,19 +22,20 @@ class project extends Model
     {
         return $this->belongsTo('App\User', 'staff_id');
     }
+
     /**
      * Get the user that owns the project.
      */
     public function user()
     {
-        return $this->belongsTo('App\User','user_id');
+        return $this->belongsTo('App\User', 'user_id');
     }
+
     /**
-     * Get the tags for the current project
+     * Get the tags for the current project.
      */
     public function tags()
     {
         return $this->hasMany('App\tag');
     }
-    
 }

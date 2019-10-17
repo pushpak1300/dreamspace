@@ -30,7 +30,8 @@ class StaffDetailController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
+     *
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -41,7 +42,8 @@ class StaffDetailController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\staff_detail  $staff_detail
+     * @param \App\staff_detail $staff_detail
+     *
      * @return \Illuminate\Http\Response
      */
     public function show(staff_detail $staff_detail)
@@ -52,7 +54,8 @@ class StaffDetailController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\staff_detail  $staff_detail
+     * @param \App\staff_detail $staff_detail
+     *
      * @return \Illuminate\Http\Response
      */
     public function edit(staff_detail $staff_detail)
@@ -63,8 +66,9 @@ class StaffDetailController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\staff_detail  $staff_detail
+     * @param \Illuminate\Http\Request $request
+     * @param \App\staff_detail        $staff_detail
+     *
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, staff_detail $staff_detail)
@@ -75,7 +79,8 @@ class StaffDetailController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\staff_detail  $staff_detail
+     * @param \App\staff_detail $staff_detail
+     *
      * @return \Illuminate\Http\Response
      */
     public function destroy(staff_detail $staff_detail)

@@ -11,7 +11,8 @@ class tag extends Model
      *
      * @var array
      */
-    protected $fillable = ['tag_name','project_id'];
+    protected $fillable = ['tag_name', 'project_id'];
+
     /**
      * Get the project that owns the tag.
      */

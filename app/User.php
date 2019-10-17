@@ -2,7 +2,6 @@
 
 namespace App;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -18,7 +17,6 @@ class User extends Authenticatable
      *
      * @var array
      */
-   
 
     /**
      * The attributes that should be hidden for arrays.
@@ -39,15 +37,17 @@ class User extends Authenticatable
     ];
 
     protected $fillable = [
-        'name', 'roll_no', 'email', 'password', 'is_fully_registered','avtar',
+        'name', 'roll_no', 'email', 'password', 'is_fully_registered', 'avtar',
     ];
+
     /**
      * Get the project for the current user.
      */
     public function projects()
     {
-        return $this->hasMany('App\project','user_id');
+        return $this->hasMany('App\project', 'user_id');
     }
+
     /**
      * Get the project record associated with the staff.
      */
@@ -55,6 +55,7 @@ class User extends Authenticatable
     {
         return $this->hasOne('App\project', 'staff_id');
     }
+
     /**
      * Get the userdetails associated with the staff.
      */
@@ -62,6 +63,7 @@ class User extends Authenticatable
     {
         return $this->hasOne('App\student_detail', 'user_id');
     }
+
     /**
      * Get the staffdetails associated with the staff.
      */

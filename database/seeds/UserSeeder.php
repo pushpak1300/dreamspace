@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Database\Seeder;
 use App\User;
+use Illuminate\Database\Seeder;
 
 class UserSeeder extends Seeder
 {
@@ -12,28 +12,28 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        $admin=User::create([
-            'name' => 'admin',
-            'email' => 'admin@admin.com',
-            'password' => bcrypt('admin123'),
-            'is_fully_registered'=>true
+        $admin = User::create([
+            'name'               => 'admin',
+            'email'              => 'admin@admin.com',
+            'password'           => bcrypt('admin123'),
+            'is_fully_registered'=> true,
         ]);
         $admin->assignRole('admin');
         $admin->save();
         $staff = User::create([
-            'name' => 'staff',
-            'email' => 'staff@admin.com',
-            'password' => bcrypt('staff123'),
-            'is_fully_registered' => true
+            'name'                => 'staff',
+            'email'               => 'staff@admin.com',
+            'password'            => bcrypt('staff123'),
+            'is_fully_registered' => true,
         ]);
         $staff->assignRole('staff');
         $staff->save();
         $student = User::create([
-            'name' => 'student',
-            'email' => 'student@admin.com',
-            'password' => bcrypt('student123'),
-            'roll_no'=>'8000',
-            'is_fully_registered' => true
+            'name'                => 'student',
+            'email'               => 'student@admin.com',
+            'password'            => bcrypt('student123'),
+            'roll_no'             => '8000',
+            'is_fully_registered' => true,
         ]);
         $student->assignRole('student');
         $student->save();
