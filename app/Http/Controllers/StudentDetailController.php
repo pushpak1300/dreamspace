@@ -30,7 +30,8 @@ class StudentDetailController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
+     *
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -41,7 +42,8 @@ class StudentDetailController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\student_detail  $student_detail
+     * @param \App\student_detail $student_detail
+     *
      * @return \Illuminate\Http\Response
      */
     public function show(student_detail $student_detail)
@@ -52,7 +54,8 @@ class StudentDetailController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\student_detail  $student_detail
+     * @param \App\student_detail $student_detail
+     *
      * @return \Illuminate\Http\Response
      */
     public function edit(student_detail $student_detail)
@@ -63,8 +66,9 @@ class StudentDetailController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\student_detail  $student_detail
+     * @param \Illuminate\Http\Request $request
+     * @param \App\student_detail      $student_detail
+     *
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, student_detail $student_detail)
@@ -75,7 +79,8 @@ class StudentDetailController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\student_detail  $student_detail
+     * @param \App\student_detail $student_detail
+     *
      * @return \Illuminate\Http\Response
      */
     public function destroy(student_detail $student_detail)

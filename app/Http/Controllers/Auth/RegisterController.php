@@ -43,15 +43,16 @@ class RegisterController extends Controller
     /**
      * Get a validator for an incoming registration request.
      *
-     * @param  array  $data
+     * @param array $data
+     *
      * @return \Illuminate\Contracts\Validation\Validator
      */
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:120'],
-            'email' => ['required', 'string', 'email:dns,rfc', 'max:120', 'unique:users'],
-            'roll_no'=>['required','string','max:4','unique:users'],
+            'name'     => ['required', 'string', 'max:120'],
+            'email'    => ['required', 'string', 'email:dns,rfc', 'max:120', 'unique:users'],
+            'roll_no'  => ['required', 'string', 'max:4', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
     }
@@ -59,18 +60,20 @@ class RegisterController extends Controller
     /**
      * Create a new user instance after a valid registration.
      *
-     * @param  array  $data
+     * @param array $data
+     *
      * @return \App\User
      */
     protected function create(array $data)
     {
-        $user=User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'roll_no'=>$data['roll_no'],
+        $user = User::create([
+            'name'     => $data['name'],
+            'email'    => $data['email'],
+            'roll_no'  => $data['roll_no'],
             'password' => Hash::make($data['password']),
         ]);
         $user->assignRole('student');
+
         return $user;
     }
 }

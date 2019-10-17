@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
+use Spatie\Permission\Models\Role;
 
 class RolesAndPermissionsSeeder extends Seeder
 {
@@ -16,10 +16,10 @@ class RolesAndPermissionsSeeder extends Seeder
         // Reset cached roles and permissions
         app()[\Spatie\Permission\PermissionRegistrar::class]->forgetCachedPermissions();
 
-        // create roles 
-        $admin=Role::create(['name' => 'admin']);
-        $staff=Role::create(['name' => 'staff']);
-        $student=Role::create(['name' => 'student']);
+        // create roles
+        $admin = Role::create(['name' => 'admin']);
+        $staff = Role::create(['name' => 'staff']);
+        $student = Role::create(['name' => 'student']);
 
         //create permission
         Permission::create(['name' => 'add-staff']);
@@ -32,12 +32,11 @@ class RolesAndPermissionsSeeder extends Seeder
         Permission::create(['name' => 'delete-student']);
         Permission::create(['name' => 'view-student']);
 
-        //assigned permissions to created roles     
+        //assigned permissions to created roles
         $admin->givePermissionTo(Permission::all());
-        
-        $staff->givePermissionTo(['edit-staff','view-staff','add-student','edit-student','delete-student','view-student']);
 
-        $student->givePermissionTo(['view-student','edit-student']);
-        
+        $staff->givePermissionTo(['edit-staff', 'view-staff', 'add-student', 'edit-student', 'delete-student', 'view-student']);
+
+        $student->givePermissionTo(['view-student', 'edit-student']);
     }
 }

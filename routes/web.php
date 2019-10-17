@@ -11,9 +11,6 @@
 |
 */
 
-use App\Http\Controllers\AdminController;
-use App\Http\Controllers\ProjectController;
-
 Route::get('/', function () {
     return view('welcome');
 });
@@ -25,14 +22,11 @@ Route::get('/home', 'HomeController@index')->name('home')->middleware('fullyregi
 Route::get('/fill-details', 'HomeController@filldetails');
 Route::post('/student/fill-details', 'HomeController@storestudentdetails')->name('storestudentdetails');
 
-
-
 //admin Routes
-Route::get('/staff/create','AdminController@createstaff')->name('createstaff');
+Route::get('/staff/create', 'AdminController@createstaff')->name('createstaff');
 Route::post('/staff/create', 'AdminController@storestaff')->name('storestaff');
 Route::get('/staff', 'AdminController@viewstaffs')->name('viewstaffs');
 Route::get('/admin/staff', 'AdminController@fetchAllStaff')->name('viewstaffdatatable');
-
 
 //admin&staff routes
 Route::get('/student/create', 'AdminController@createstudent')->name('createstudent');
@@ -40,7 +34,7 @@ Route::post('/student/create', 'AdminController@storestudent')->name('storestude
 Route::get('/student', 'AdminController@viewstudents')->name('viewstudents');
 Route::get('/admin/student', 'AdminController@fetchAllstudent')->name('viewstudentdatatable');
 
-Route::delete('/student/{id}','AdminController@deletestudent')->name('deletestudent');
+Route::delete('/student/{id}', 'AdminController@deletestudent')->name('deletestudent');
 Route::delete('/admin/student/{id}', 'AdminController@viewstudent')->name('viewstudent');
 
 Route::get('/admin/all/project', 'AdminController@fetchallproject');
@@ -48,13 +42,8 @@ Route::get('/admin/project', 'AdminController@viewproject');
 
 //staff Routes
 
-
 //student Routes
 Route::resource('project', 'ProjectController');
-Route::get('/user/project','ProjectController@viewselfproject')->name('viewselfproject');
-
-
+Route::get('/user/project', 'ProjectController@viewselfproject')->name('viewselfproject');
 
 Route::get('/report', 'ReportController@report');
-
-
