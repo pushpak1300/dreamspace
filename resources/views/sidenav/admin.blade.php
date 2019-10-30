@@ -91,17 +91,12 @@
 
      <ul class="childNav" data-parent="report">
          <li class="nav-item">
-             <a class="" href="charts\echarts.html">
+             <a class="" href="/report">
                  <i class="nav-icon i-File-Clipboard-Text--Image"></i>
-                 <span class="item-name">Manage Reports</span>
+                 <span class="item-name">Genrate Reports</span>
              </a>
          </li>
-         <li class="nav-item">
-             <a class="" href="charts\chartjs.html">
-                 <i class="nav-icon i-File-Clipboard-Text--Image"></i>
-                 <span class="item-name">Generate Reports</span>
-             </a>
-         </li>
+         
      </ul>
 
 

@@ -6,6 +6,7 @@ use App\student_detail;
 use App\User;
 use Auth;
 use Illuminate\Http\Request;
+use App\project;
 
 class HomeController extends Controller
 {
@@ -28,8 +29,8 @@ class HomeController extends Controller
     {
         $student = User::role('student')->get();
         $staff = User::role('staff')->get();
-
-        return view('home', ['student'=>$student, 'staff'=>$staff]);
+        $project=Project::all();
+        return view('home', ['student'=>$student, 'staff'=>$staff,'project'=>$project]);
     }
 
     /**

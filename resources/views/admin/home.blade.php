@@ -34,46 +34,21 @@
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="card card-icon mb-4">
                                 <div class="card-body text-center">
-                                    <i class="i-Money-2"></i>
-                                    <p class="text-muted mt-2 mb-2">Total sales</p>
-                                    <p class="text-primary text-24 line-height-1 m-0">4021</p>
+                                    <i class="i-Data-Upload"></i>
+                                    <p class="text-muted mt-2 mb-2">Total Projects</p>
+                                    <p class="text-primary text-24 line-height-1 m-0">{{$project->count()}}</p>
                                 </div>
                             </div>
                         </div>
 
-
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="card card-icon-big mb-4">
-                                <div class="card-body text-center">
-                                    <i class="i-Money-2"></i>
-                                    <p class="line-height-1 text-title text-18 mt-2 mb-0">4021</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="card card-icon-big mb-4">
-                                <div class="card-body text-center">
-                                    <i class="i-Gear"></i>
-                                    <p class="line-height-1 text-title text-18 mt-2 mb-0">4021</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="card card-icon-big mb-4">
-                                <div class="card-body text-center">
-                                    <i class="i-Bell"></i>
-                                    <p class="line-height-1 text-title text-18 mt-2 mb-0">4021</p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
             <div class="col-md-6">
                             <div class="card mb-4">
                                 <div class="card-body">
-                                    <h6 class="mb-0 text-muted">Subscription/Registration</h6>
-                                    <p class="text-24 font-weight-light mb-1">20/80</p>
+                                    <h6 class="mb-0 text-muted">Registration</h6>
+                                    <p class="text-24 font-weight-light mb-1">{{$project->count()}}</p>
                                     <div id="echart1" style="height: 140px; -webkit-tap-highlight-color: transparent; user-select: none; position: relative;" _echarts_instance_="ec_1570036258851"><div style="position: relative; overflow: hidden; width: 178px; height: 140px; padding: 0px; margin: 0px; border-width: 0px; cursor: default;"><canvas data-zr-dom-id="zr_0" width="178" height="140" style="position: absolute; left: 0px; top: 0px; width: 178px; height: 140px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
                                 </div>
                             </div>

@@ -30,7 +30,7 @@
                                                <option value="year">YEAR WISE</option>
                                                <option value="dep">DEPARTMENT WISE</option>
                                                <option value="all">ALL</option>
-                                               <option value="class">CLASS WISE</option>
+                                     
                                         </select>
                                     @error('name')
                                     <span class="invalid-feedback" role="alert">

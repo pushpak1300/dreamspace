@@ -35,7 +35,7 @@ class ReportController extends Controller
     public function yearreport(Project $project){
 
     }
-    public function depreport(Project $project){
+    public function allreport(Project $project){
         $project = Project::all();
 
         return DataTables::of($project)
