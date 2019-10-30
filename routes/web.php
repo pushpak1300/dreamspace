@@ -27,6 +27,11 @@ Route::get('/staff/create', 'AdminController@createstaff')->name('createstaff');
 Route::post('/staff/create', 'AdminController@storestaff')->name('storestaff');
 Route::get('/staff', 'AdminController@viewstaffs')->name('viewstaffs');
 Route::get('/admin/staff', 'AdminController@fetchAllStaff')->name('viewstaffdatatable');
+Route::get('/report', 'ReportController@report');
+Route::post('/report','ReportController@reportform');
+Route::get('/yearreport', 'ReportController@yearreport');
+Route::get('/depreport', 'ReportController@depreport');
+Route::get('/allreport', 'ReportController@allreport');
 
 //admin&staff routes
 Route::get('/student/create', 'AdminController@createstudent')->name('createstudent');
@@ -46,4 +51,3 @@ Route::get('/admin/project', 'AdminController@viewproject');
 Route::resource('project', 'ProjectController');
 Route::get('/user/project', 'ProjectController@viewselfproject')->name('viewselfproject');
 
-Route::get('/report', 'ReportController@report');
