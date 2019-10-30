@@ -53,9 +53,9 @@
                                     @enderror
                                 </div>
                                 <div class="col-md-12 form-group mb-3">
-                                  <label for="twitter_id">twitter_id</label>
+                                  <label for="twitter_id">Twitter Id</label>
                                     <input type="url" class="form-control @error('twitter_id') is-invalid @enderror" value="{{old('twitter_id')}}"  id="twitter_id" placeholder="Jhon Traversy"
-                                        name='twitter_id' required>
+                                        name='twitter_id'>
                                     @error('twitter_id')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -63,9 +63,9 @@
                                     @enderror
                                 </div>
                                 <div class="col-md-12 form-group mb-3">
-                                   <label for="github_id">github_id</label>
+                                   <label for="github_id">Github Id</label>
                                     <input type="url" class="form-control @error('github_id') is-invalid @enderror" value="{{old('github_id')}}"  id="github_id" placeholder="Jhon Traversy"
-                                        name='github_id' required>
+                                        name='github_id' >
                                     @error('github_id')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
